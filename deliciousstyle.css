@@ -1,0 +1,71 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Parantaa riviväliä */
+    color: #333; /* Mustavari teksti */
+    background-color: #f9f9f9; /* Vaaleanharmaa tausta */
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #4CAF50; 
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.dessert-item {
+    margin-bottom: 20px;
+    overflow: hidden; 
+}
+
+.dessert-image {
+    float: left; 
+    margin-right: 20px; 
+    width: 200px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.dessert-info {
+    float: left; 
+    width: calc(100% - 220px); 
+}
+
+.dessert-info h2 {
+    color: #4CAF50; 
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.dessert-info p {
+    font-size: 1.1rem;
+    line-height: 1.5; 
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666; 
+}

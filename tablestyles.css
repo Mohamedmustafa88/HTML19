@@ -1,0 +1,27 @@
+/* tablestyles.css */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #19c27b;
+    padding: 8px;
+    text-align: left;
+} 
+
+thead th {
+    background-color: #6d3cb7;
+    color: #333;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}

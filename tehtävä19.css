@@ -1,0 +1,26 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .multicolumn-container {
+    column-count: 3; 
+    column-gap: 50px; 
+    column-rule: 1px solid #ccc; 
+  }
+  
+  .column {
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    text-align: center; 
+    border: 1px solid #ccc;
+  }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f5;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Nature Gallery</h1>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/150?text=Nature+1" alt="Nature 1">
+        <img src="https://via.placeholder.com/150?text=Nature+2" alt="Nature 2">
+        <img src="https://via.placeholder.com/150?text=Nature+3" alt="Nature 3">
+        <img src="https://via.placeholder.com/150?text=Nature+4" alt="Nature 4">
+        <img src="https://via.placeholder.com/150?text=Nature+5" alt="Nature 5">
+    </div>
+</body>
+</html>
